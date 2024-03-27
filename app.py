@@ -280,5 +280,5 @@ def generate_html():
 
 if __name__ == '__main__':
     html_content = generate_html()  # Call generate_html() here before running the app
-    app.run(host="0.0.0.0", port=1000, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
 
